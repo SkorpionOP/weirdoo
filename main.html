@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random Questions with Night Mode</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <button id="night-mode-toggle" onclick="toggleNightMode()">Night Mode</button>
+        <h1>Random Questions Generator</h1>
+        <div class="questions">
+            <div id="group1-questions" class="question-group">
+                <h2>Questions from Group 1</h2>
+                <ul id="group1-list"></ul>
+            </div>
+            <div id="group2-questions" class="question-group">
+                <h2>Questions from Group 2</h2>
+                <ul id="group2-list"></ul>
+            </div>
+        </div>
+        <button onclick="generateRandomQuestions()">Generate Random Questions</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
